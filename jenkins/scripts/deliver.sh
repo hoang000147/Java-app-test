@@ -24,6 +24,6 @@ echo 'The following command runs and outputs the execution of your Java'
 echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
 set -x
 #chmod 777 target
-#java -jar target/${NAME}-${VERSION}.jar
-chmod 777 /var/jenkins_home/workspace/java-app-test-7/target/Assignment3-1.0-SNAPSHOT.jar
-java -jar /var/jenkins_home/workspace/java-app-test-7/target/Assignment3-1.0-SNAPSHOT.jar
+java -jar target/${NAME}-${VERSION}.jar
+#chmod 777 /var/jenkins_home/workspace/java-app-test-7/target/Assignment3-1.0-SNAPSHOT.jar
+#java -jar /var/jenkins_home/workspace/java-app-test-7/target/Assignment3-1.0-SNAPSHOT.jar
